@@ -1,4 +1,13 @@
 ---
+# this is techinically just a play not a playbook because there is 
+# only one play taking place for webservers we could add another play
+# for databases and then we would have a playbook
+
+# a playbook describes
+# how and in which order
+# at what time and where (on which machines)
+# what(the modules) should be executed (orchstrates module execution)
+
 - hosts: webservers
   vars:
     http_port: 80
